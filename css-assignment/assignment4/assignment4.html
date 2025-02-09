@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="assignment4.css" />
+  </head>
+
+  <body>
+    <main class="container">
+      <header>
+        <img src="/css-assignment/images/Logo.png" alt="Logo" class="logo" />
+        <div>
+          <h1>For Individuals</h1>
+          <p class="lg-hidden">
+            Inspiring wholesome harmony for the mind, body and spirit, for
+            everyone, everywhere.
+          </p>
+          <p class="hidden lg-show">
+            Start benefiting from the wellness experience. For companies looking
+            on increasing productivity, and improving organization wellness.
+          </p>
+        </div>
+      </header>
+
+      <form class="signup-form">
+        <div class="form-element">
+          <label for="first-name">First Name</label>
+          <input type="text" id="first-name" placeholder="Tolu" />
+        </div>
+
+        <div class="form-element">
+          <label for="last-name">Last Name</label>
+          <input type="text" id="last-name" placeholder="Olu" />
+        </div>
+
+        <div class="form-element">
+          <label for="gender">Gender:</label>
+          <select id="gender">
+            <option value="" disabled selected>Select here</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+
+        <div class="form-element">
+          <label for="dob">Date of Birth</label>
+          <input type="date" id="dob" placeholder="Select here" />
+        </div>
+
+        <div class="form-element">
+          <label for="weight">Weight (KG)</label>
+          <input type="text" id="weight" placeholder="Enter Weight" />
+        </div>
+
+        <div class="form-element">
+          <label for="height">Height (CM)</label>
+          <input type="text" id="height" placeholder="Enter height here.." />
+        </div>
+
+        <div class="form-element full-width">
+          <label for="activity-level">Activity Level</label>
+          <select id="activity-level">
+            <option value="" disabled selected>Select here</option>
+            <option value="beginner">Beginner</option>
+            <option value="intermediate">Intermediate</option>
+            <option value="high">High</option>
+          </select>
+        </div>
+
+        <div class="form-element full-width">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="" />
+        </div>
+        <button type="submit" class="register-button full-width">
+          Register
+        </button>
+
+        <p class="lg-show full-width footnote">
+          By clicking Register, you agree to our
+          <a href="#">Terms of Use</a> and our <a href="#">Privacy Policy</a>
+        </p>
+      </form>
+    </main>
+    <footer class="lg-hidden">
+      <p>
+        By clicking Register, you agree to our <a href="#">Terms of Use</a> and
+        our <a href="#">Privacy Policy</a>
+      </p>
+    </footer>
+  </body>
+</html>

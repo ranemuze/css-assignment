@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WP Pusher Checkout</title>
+    <link rel="stylesheet" href="assignment5.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <nav class="header">
+      <div class="logo">
+        <img src="/css-assignment/images/logo1.png" alt="WP Pusher" />
+      </div>
+      <div class="nav-links">
+        <span>Download</span>
+        <span>Learn more</span>
+        <span>Pricing</span>
+        <span>Help</span>
+        <button class="account-btn">Account</button>
+      </div>
+    </nav>
+
+    <!-- Checkout Container -->
+    <div class="checkout-container">
+      <!-- Left Side: Checkout Form -->
+      <div class="checkout-form">
+        <h2>Checkout</h2>
+
+        <form action="">
+          <section class="form-row">
+            <h3 class="section-title"><span>1</span> Your Basic Information</h3>
+
+            <div class="form-item">
+              <label>First Name</label>
+              <input type="text" placeholder="Jane" />
+            </div>
+            <div class="form-item">
+              <label>Last Name</label>
+              <input type="text" placeholder="Doe" />
+            </div>
+            <div class="email-row">
+              <label>Email</label>
+              <input type="email" placeholder="janedoe@example.com" />
+            </div>
+          </section>
+
+          <section class="payment-container">
+            <h4 class="section-title">
+              <span>2</span> Your Payment Information
+            </h4>
+            <div class="form-item">
+              <label>Credit Card</label>
+              <div class="payment-row">
+                <input type="text" placeholder="Card Number" />
+                <input type="text" placeholder="MM / YY" />
+                <input type="text" placeholder="CVC" />
+              </div>
+            </div>
+          </section>
+
+          <div class="button-container">
+            <button class="buy-btn">Buy WP Pusher</button>
+            <div class="footer-text">
+              <div class="qmark">?</div>
+              <span>
+                <b>Need any help?</b> Don’t hesitate to contact support!
+              </span>
+            </div>
+            <img src="/css-assignment/images/powered_by_stripe.png" alt="" />
+          </div>
+        </form>
+      </div>
+
+      <!-- Right Side: Summary Panel -->
+      <div class="checkout-summary">
+        <div>
+          <h5>Freelancer</h5>
+          <div class="price-container">
+            <span class="currency">$</span>
+            <span class="price"> 99 </span>
+            <span class="sub">/ year</span>
+          </div>
+          <p class="renewal">
+            Automatically renews <br />
+            after 1 year
+          </p>
+        </div>
+        <ul class="benefits">
+          <li>Use on 5 client sites</li>
+          <li>Private repositories</li>
+          <li>Email support</li>
+        </ul>
+        <div>
+          <p>Need 20 client sites?</p>
+          <a href="#" class="switch-plan">Switch to the Agency plan</a>
+        </div>
+
+        <section class="testimonial">
+          <p>
+            FTP is horrible to deal with. <b>WP Pusher</b> solves that issue,
+            and the customer support is awesome!
+          </p>
+          <div class="testifier">
+            <img src="/css-assignment/images/kirk_beard.png" alt="" />
+            <span>Kirk Beard</span>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      © 2018 WP Pusher IVS - <a href="#">Terms of Service</a>
+    </div>
+  </body>
+</html>

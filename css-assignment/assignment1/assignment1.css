@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #222;
+  padding: 100px;
+}
+.header {
+  margin-top: -47px;
+}
+.card {
+  background-color: white;
+  padding: 32px;
+  border-radius: 8px;
+  width: 400px;
+}
+h1 {
+  background-color: deeppink;
+  padding: 16px 32px;
+  margin-bottom: 24px;
+  font-size: 2rem;
+  text-align: center;
+  border-radius: 6px;
+}
